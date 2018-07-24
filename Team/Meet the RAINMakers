@@ -27,6 +27,15 @@
         font-family: Helvetica;
         font-size: 2em;
       }
+      
+      .team_photos_container{
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+      
+      .team-photo{
+        border-radius: 50%;
+      }
     </style>
   </head>
   
@@ -34,6 +43,31 @@
     <h1 class="main main_title">Meet the Team</h1>
     <hr class="main main_divider"></hr>
     <h1 class="small_body">With team members from 6 different high school and university institutions, the Tacoma RAINMakers have built an effective and diverse team.</p>
+    
+    <div class="team_photos_container">
+      <div class="team_photo">Sarah Bortel</div>
+      <div class="team_photo">Kira Boyce</div>
+      <div class="team_photo">Kian Croston</div>
+      <div class="team_photo">Ian Gutierrez</div>
+      <div class="team_photo">Anna Haddad</div>
+      <div class="team_photo">Keshava Katti</div>
+      <div class="team_photo">James Lee</div>
+      <div class="team_photo">Michael Martin</div>
+      <div class="team_photo">Jaskiran Pental</div>
+      <div class="team_photo">Brendan Studebaker</div>
+      <div class="team_photo">Leon Wan</div>
+      <div class="team_photo">Heidi Xu</div>
+      <div class="team_photo">Madelyn Yeh</div>
+      <div class="team_photo">Jonathan Zacarias</div>
+      <div class="team_photo">Amanda Galuszka</div>
+      <div class="team_photo">Kristine Grace</div>
+      <div class="team_photo">David Hirschberg</div>
+      <div class="team_photo">Judy Nguyen</div>
+      <div class="team_photo">Susan Xu</div>
+    </div>
+    
+    <div class="team_slideshow"></div>
+    
 
     <!--
     <div class="column two_thirds_size" >
