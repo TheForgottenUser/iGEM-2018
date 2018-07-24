@@ -133,8 +133,8 @@
       <a href="javascript:gotoshow()"><img src="food1.jpg" name="slide" border=0 width=300 height=375></a>
       <script>
         //configure the paths of the images, plus corresponding target links
-        slideshowimages("food1.jpg","food2.jpg","food3.jpg","food4.jpg","food5.jpg")
-        slideshowlinks("http://food.epicurious.com/run/recipe/view?id=13285","http://food.epicurious.com/run/recipe/view?id=10092","http://food.epicurious.com/run/recipe/view?id=100975","http://food.epicurious.com/run/recipe/view?id=2876","http://food.epicurious.com/run/recipe/view?id=20010")
+        slideshowimages("Sarah_Bortel.jpg","Kira Boyce")
+        slideshowlinks("http://2018.igem.org/wiki/images/3/3b/T--Tacoma_RAINMakers--Sarah_Bortel.png","http://2018.igem.org/wiki/images/4/4e/T--Tacoma_RAINMakers--Kira_Boyce.png")
 
         //configure the speed of the slideshow, in milliseconds
         var slideshowspeed=2000
