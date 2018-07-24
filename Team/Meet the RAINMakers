@@ -8,8 +8,8 @@
       }
 
       .main_title{
-        font-family: Spinnaker;
-        font-decoration: bold;
+        font-family: 'Spinnake'r;
+        font-weight: bold;
         font-size: 5.5em;
         text-align: center;
       }
