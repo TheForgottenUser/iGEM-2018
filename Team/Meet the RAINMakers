@@ -2,13 +2,16 @@
 <html>
   <head>
     <title>Meet the RAINMakers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <style>
       .main{
         color: #76879B;
       }
 
       .main_title{
-        font-family: 'Spinnake'r;
+        font-family: 'Spinnaker';
         font-weight: bold;
         font-size: 5.5em;
         text-align: center;
@@ -17,7 +20,7 @@
       .main_divider{
         size: .5em;
         width: 33%;
-        align: center;
+        alignment-adjust: central;
         border: none;
         border-top: .1em dotted;
       }
@@ -33,12 +36,12 @@
         margin-bottom: 15px;
       }
       
-      .team-photo{
+      .team_photo{
         padding: 2px 2px 2px 2px;
       }
     </style>
 
-    <script async>
+    <script>
       var slideimages=new Array()
       var slidelinks=new Array()
       function slideshowimages(){
@@ -65,66 +68,66 @@
   
   <body>
     <h1 class="main main_title">Meet the Team</h1>
-    <hr class="main main_divider"></hr>
-    <h1 class="small_body">With team members from 6 different high school and university institutions, the Tacoma RAINMakers have built an effective and diverse team.</p>
+    <hr class="main main_divider">
+    <h1 class="small_body">With team members from 6 different high school and university institutions, the Tacoma RAINMakers have built an effective and diverse team.</h1>
     
     <div class="team_photos_container">
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/3/3b/T--Tacoma_RAINMakers--Sarah_Bortel.png" alt="Sarah Bortel"></img>
+        <img src="http://2018.igem.org/wiki/images/3/3b/T--Tacoma_RAINMakers--Sarah_Bortel.png" alt="Sarah Bortel" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/4/4e/T--Tacoma_RAINMakers--Kira_Boyce.png" alt="Kira Boyce"></img>
+        <img src="http://2018.igem.org/wiki/images/4/4e/T--Tacoma_RAINMakers--Kira_Boyce.png" alt="Kira Boyce" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Kian_Croston.png" alt="Kian Croston"></img>
+        <img src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Kian_Croston.png" alt="Kian Croston" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/d/df/T--Tacoma_RAINMakers--Ian_Gutierrez.png" alt="Ian Gutierrez"></img>
+        <img src="http://2018.igem.org/wiki/images/d/df/T--Tacoma_RAINMakers--Ian_Gutierrez.png" alt="Ian Gutierrez" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/9/99/T--Tacoma_RAINMakers--Anna_Haddad.png" alt="Anna Haddad"></img>
+        <img src="http://2018.igem.org/wiki/images/9/99/T--Tacoma_RAINMakers--Anna_Haddad.png" alt="Anna Haddad" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Keshava Katti"></img>
+        <img src="" alt="Keshava Katti" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/3/33/T--Tacoma_RAINMakers--James_Lee.png" alt="James Lee"></img>
+        <img src="http://2018.igem.org/wiki/images/3/33/T--Tacoma_RAINMakers--James_Lee.png" alt="James Lee" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Michael_Martin.png" alt="Michael Martin"></img>
+        <img src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Michael_Martin.png" alt="Michael Martin" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Jaskiran Pental"></img>
+        <img src="" alt="Jaskiran Pental" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Brendan Studebaker"></img>
+        <img src="" alt="Brendan Studebaker" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/b/b4/T--Tacoma_RAINMakers--Leon_Wan.png" alt="Leon Wan"></img>
+        <img src="http://2018.igem.org/wiki/images/b/b4/T--Tacoma_RAINMakers--Leon_Wan.png" alt="Leon Wan" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Heidi Xu"></img>
+        <img src="" alt="Heidi Xu" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/e/ea/T--Tacoma_RAINMakers--Madelyn_Yeh.png" alt="Madelyn Yeh"></img>
+        <img src="http://2018.igem.org/wiki/images/e/ea/T--Tacoma_RAINMakers--Madelyn_Yeh.png" alt="Madelyn Yeh" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/6/6f/T--Tacoma_RAINMakers--Jonathan_Zacarias.png" alt="Jonathan Zacarias"></img>
+        <img src="http://2018.igem.org/wiki/images/6/6f/T--Tacoma_RAINMakers--Jonathan_Zacarias.png" alt="Jonathan Zacarias" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Amanda Galuszka"></img>
+        <img src="" alt="Amanda Galuszka" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Kristine Grace"></img>
+        <img src="" alt="Kristine Grace" />
       </div>
       <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/5/51/T--Tacoma_RAINMakers--David_Hirschberg.png" alt="David Hirschberg"></img>
+        <img src="http://2018.igem.org/wiki/images/5/51/T--Tacoma_RAINMakers--David_Hirschberg.png" alt="David Hirschberg" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Judy Nguyen"></img>
+        <img src="" alt="Judy Nguyen" />
       </div>
       <div class="team_photo">
-        <img src="" alt="Susan Xu"></img>
+        <img src="" alt="Susan Xu" />
       </div>
     </div>
     
