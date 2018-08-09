@@ -15,177 +15,168 @@
         font-weight: bold;
         font-size: 5.5em;
         text-align: center;
+        margin-bottom: 0.25em;
       }
 
       .main_divider{
-        size: .5em;
-        width: 33%;
+        size: 0.5em;
+        width: 50%;
         alignment-adjust: central;
         border: none;
-        border-top: .1em dotted;
+        border-top: .5em dotted;
       }
 
       .small_body{
         color: black;
         font-family: Helvetica;
         font-size: 2em;
+        margin-left: 6em;
+        margin-right: 6em;
+        text-align: center;
       }
       
       .team_photos_container{
-        margin-top: 10px;
-        margin-bottom: 15px;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        margin-left: 5em;
+        margin-right: 5em;
+      }
+        
+      .resize{
+        padding: 0.5em;
+        height: 10em;
+        width: auto;
+        }
+      
+      .slideshow_background{
+        background-color: #5C7A8A;
+        display: table-cell;
+        width: 50em;
+        height: 25em;
+        border-left: 15em solid white;
       }
       
-      .team_photo{
-        padding: 2px 2px 2px 2px;
+      .slideshow_background .image_container{
+        display: inline-block;
+        vertical-align: middle;
+        width: 20em;
+        height: 22em;
+        margin: 1.5em 0em 0em 2em;
       }
+      
+      .text_container{
+        display: inline-block;
+        vertical-align: top;
+        width: 25em;
+        height: 22em;
+        margin: 1.5em 0em 0em 1.2em;
+      }
+      
+      .title_container{
+        display: inline-block;
+        width: 20em;
+        height 3em;
+        margin: 1em 0em 0em 2.5em;
+      }
+      
+      .body_container{
+        width: auto;
+        height: 16.5em;
+        margin: 1em 1em 1em 1em;
+      }
+				
+		  .slideshow_resize{
+				height: 20em;
+				margin-top: 1em;
+		  }
+				
+			.slideshow_title{
+				  font-family: 'Myriad Pro';
+					font-style: italic;
+					font-size: 3em;
+					margin: 0;
+					color: #FFFFFF;
+					text-align: center;
+			}
+				
+			.slideshow_body{
+					margin: 0.25em;
+					text-align: left;
+					color: white;
+					font-size: 1.5em;
+			}
+				
+			.spacer{
+					background-color: #FFFFFF;
+					height: 5em;
+			}
     </style>
-
-    <script>
-      var slideimages=new Array()
-      var slidelinks=new Array()
-      function slideshowimages(){
-        for (i=0;i<slideshowimages.arguments.length;i++){
-          slideimages[i]=new Image()
-          slideimages[i].src=slideshowimages.arguments[i]
-        }
-      }
-
-      function slideshowlinks(){
-        for (i=0;i<slideshowlinks.arguments.length;i++)
-        slidelinks[i]=slideshowlinks.arguments[i]
-      }
-
-      function gotoshow(){
-        if (!window.winslide||winslide.closed)
-        winslide=window.open(slidelinks[whichlink])
-        else
-        winslide.location=slidelinks[whichlink]
-        winslide.focus()
-      }
-    </script>
+			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+				$(document).ready(function(){
+						var current = $("#num1");
+						var next = $("#num2");
+						var other = $("#num3");
+						
+						$("#sarah").on("click", function(){
+								current.toggle(500);
+								next.toggle(500);
+						})
+						
+						$("#kira").on("click", function(){
+								current.toggle(500);
+								other.toggle(500);
+						})
+				})
+		</script>
   </head>
   
   <body>
     <h1 class="main main_title">Meet the Team</h1>
     <hr class="main main_divider">
-    <h1 class="small_body">With team members from 6 different high school and university institutions, the Tacoma RAINMakers have built an effective and diverse team.</h1>
+    <h1 class="small_body">With team members from 6 different high schools, the Tacoma RAINMakers have built an effective and diverse team.</h1>
     
     <div class="team_photos_container">
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/3/3b/T--Tacoma_RAINMakers--Sarah_Bortel.png" alt="Sarah Bortel" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/4/4e/T--Tacoma_RAINMakers--Kira_Boyce.png" alt="Kira Boyce" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Kian_Croston.png" alt="Kian Croston" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/d/df/T--Tacoma_RAINMakers--Ian_Gutierrez.png" alt="Ian Gutierrez" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/9/99/T--Tacoma_RAINMakers--Anna_Haddad.png" alt="Anna Haddad" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Keshava Katti" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/3/33/T--Tacoma_RAINMakers--James_Lee.png" alt="James Lee" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Michael_Martin.png" alt="Michael Martin" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Jaskiran Pental" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Brendan Studebaker" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/b/b4/T--Tacoma_RAINMakers--Leon_Wan.png" alt="Leon Wan" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Heidi Xu" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/e/ea/T--Tacoma_RAINMakers--Madelyn_Yeh.png" alt="Madelyn Yeh" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/6/6f/T--Tacoma_RAINMakers--Jonathan_Zacarias.png" alt="Jonathan Zacarias" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Amanda Galuszka" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Kristine Grace" />
-      </div>
-      <div class="team_photo">
-        <img src="http://2018.igem.org/wiki/images/5/51/T--Tacoma_RAINMakers--David_Hirschberg.png" alt="David Hirschberg" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Judy Nguyen" />
-      </div>
-      <div class="team_photo">
-        <img src="" alt="Susan Xu" />
-      </div>
+        <img class="resize" id="sarah" src="http://2018.igem.org/wiki/images/3/3b/T--Tacoma_RAINMakers--Sarah_Bortel.png" alt="Sarah Bortel" />
+        <img class="resize" id="kira" src="http://2018.igem.org/wiki/images/4/4e/T--Tacoma_RAINMakers--Kira_Boyce.png" alt="Kira Boyce" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Kian_Croston.png" alt="Kian Croston" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/d/df/T--Tacoma_RAINMakers--Ian_Gutierrez.png" alt="Ian Gutierrez" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/9/99/T--Tacoma_RAINMakers--Anna_Haddad.png" alt="Anna Haddad" />
+        <img class="resize" src="" alt="Keshava Katti" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/3/33/T--Tacoma_RAINMakers--James_Lee.png" alt="James Lee" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/f/f1/T--Tacoma_RAINMakers--Michael_Martin.png" alt="Michael Martin" />
+        <img class="resize" src="" alt="Jaskiran Pental" />
+        <img class="resize" src="" alt="Brendan Studebaker" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/b/b4/T--Tacoma_RAINMakers--Leon_Wan.png" alt="Leon Wan" />
+        <img class="resize" src="" alt="Heidi Xu" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/e/ea/T--Tacoma_RAINMakers--Madelyn_Yeh.png" alt="Madelyn Yeh" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/6/6f/T--Tacoma_RAINMakers--Jonathan_Zacarias.png" alt="Jonathan Zacarias" />
+        <img class="resize" src="" alt="Amanda Galuszka" />
+        <img class="resize" src="" alt="Kristine Grace" />
+        <img class="resize" src="http://2018.igem.org/wiki/images/5/51/T--Tacoma_RAINMakers--David_Hirschberg.png" alt="David Hirschberg" />
+        <img class="resize" src="" alt="Judy Nguyen" />
+        <img class="resize" src="" alt="Susan Xu" />
     </div>
     
-    <div class="team_slideshow">
-      //javascript code for the slideshow
-      <a href="javascript:gotoshow()"><img src="food1.jpg" name="slide" border=0 width=300 height=375></a>
-      <script>
-        //configure the paths of the images, plus corresponding target links
-        slideshowimages("Sarah_Bortel.jpg","Kira Boyce")
-        slideshowlinks("http://2018.igem.org/wiki/images/3/3b/T--Tacoma_RAINMakers--Sarah_Bortel.png","http://2018.igem.org/wiki/images/4/4e/T--Tacoma_RAINMakers--Kira_Boyce.png")
-
-        //configure the speed of the slideshow, in milliseconds
-        var slideshowspeed=2000
-
-        var whichlink=0
-        var whichimage=0
-        function slideit(){
-          if (!document.images)
-          return
-          document.images.slide.src=slideimages[whichimage].src
-          whichlink=whichimage
-          if (whichimage<slideimages.length-1)
-          whichimage++
-          else
-          whichimage=0
-          setTimeout("slideit()",slideshowspeed)
-        }
-        slideit()
-      </script>
-    </div>
-    
-
-    <!--
-    <div class="column two_thirds_size" >
-      <h1>Team</h1>
-      <p>In this page you can introduce your team members, instructors, and advisors. </p>
-
-      <h3>What should this page contain?</h3>
-      <ul>
-        <li> Include pictures of your teammates, don’t forget instructors and advisors! </li>
-        <li>You can add a small biography or a few words from each team member, to tell us what you like, and what motivated you to participate in iGEM.</li>
-        <li>Take team pictures! Show us your school, your lab and little bit of your city.</li>
-        <li>Remember that image galleries can help you showcase many pictures while saving space.</li>
-      </ul>
-    </div>
-    <div class="column third_size" >
-      <div class="highlight decoration_A_full">
-        <h3>Inspiration</h3>
-        <p>You can look at what other teams did to get some inspiration! <br />
-        Here are a few examples:</p>
-        <ul>
-          <li><a href="http://2014.igem.org/Team:METU_Turkey_team">2014 METU Turkey </a></li>
-          <li><a href="http://2014.igem.org/Team:Colombia/Members">2014 Colombia</a></li>
-          <li><a href="http://2014.igem.org/Team:Stony_Brook/Team">2014 Stony Brook</a></li>
-          <li><a href="http://2014.igem.org/Team:OUC-China/Team">2014 OUC-China</a></li>
-        </ul>
+    <div class="slideshow_background" id="jump_here">
+      <div class="image_container">
+				<img class="slideshow_resize" id="num1" src="http://2018.igem.org/wiki/images/e/ea/T--Tacoma_RAINMakers--Madelyn_Yeh.png" alt="Madelyn Yeh" />
+				<img class="slideshow_resize" id="num2" src="http://2018.igem.org/wiki/images/3/3b/T--Tacoma_RAINMakers--Sarah_Bortel.png" alt="Sarah Bortel" />
+				<img class="slideshow_resize" id="num3" src="http://2018.igem.org/wiki/images/4/4e/T--Tacoma_RAINMakers--Kira_Boyce.png" alt="Kira Boyce" />
+			</div>
+      <div class="text_container">
+        <div class="title_container">
+						<h3 class="slideshow_title">Madelyn Yeh</h3>
+				</div>
+        <div class="body_container">
+					  <p class="small_body slideshow_body">Madelyn is a real swell gal. Intelligent, kind, and full of puns, she brightens up the lab and works hard while smiling, and making others better.</p>
+			  </div>
       </div>
     </div>
-    -->
+			
+		<div class="spacer"></div>
   </body>
+  
+<!-- No clue why I have to enter in Title and Body for the containers to appear. -->
 </html>
