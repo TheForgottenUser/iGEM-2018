@@ -1,0 +1,227 @@
+<html>
+  <head>
+    <title>Sponsors</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+      .main{
+        color: #000000;
+      }
+
+      .main_title{
+        font-family: 'Spinnaker';
+        font-weight: bold;
+        font-size: 5em;
+        text-align: center;
+        margin-bottom: 0.25em;
+      }
+
+      .main_divider{
+        size: 0.5em;
+        width: 50%;
+        alignment-adjust: central;
+        border: none;
+        border-top: .5em dotted;
+      }
+
+      .small_body{
+        color: black;
+        font-family: 'Spinnaker';
+        font-size: 1.1em;
+        text-align: left;
+        margin-bottom: 1em; 
+      }
+        
+        .golden_bod{
+        margin-top: 3em;
+        background-color: #fcd711;   
+        display: table-cell;
+        margin-bottom: 2em;
+        }
+        
+        .silver_bod{
+        background-color: #e5dbdc;   
+        margin-top:-1em;
+        padding-bottom: -5em;
+        }
+        
+        .sponsor_title{
+        margin-left: 6em;
+        text-decoration: underline;
+        font-size: 2.15em;
+        margin-top: 1em;
+        }
+        
+        .img_sizing{
+        padding: 1em;
+        margin-left: 5em;
+        height: 10em;
+        width: 20em;
+        margin-top: 1em;
+        margin-bottom: -2.5em;
+        }
+        
+        .left-side{
+        display: inline-block;
+            width: 40%;
+        }
+        
+        .right-side{
+        display: inline-block;
+            float: right;
+            width: 60%;
+        }
+        
+        .text{
+        font-family: 'Spinnaker';
+        }
+        
+        #promega_text{
+        padding-top: 1em;
+         font-size: 1.15em;   
+        }
+        
+        #promega_logo{
+        height: 19em;    
+        }
+      
+        #select_science{
+        width:26em;
+        height:9em;
+        float: left;
+        margin-left: 2.5em; 
+        margin-top: -3em;
+        }
+        
+        #starbucks_logo{
+        width: 15em;   
+        height: 15em;
+        margin-top: 0em;
+        margin-left: 7em;  
+        }
+        #scinote_logo{
+        width: 22em;   
+        height: 4.2em;
+        margin-top: 5em;
+        margin-left: 3em;             
+        }
+        #snapgene{
+        width: 23em;   
+        height: 5.7em;
+        margin-top: 9em;
+        margin-left: 2.3em;             
+        }  
+        #snapgene_text{
+         padding-top: 1em;
+         font-size: 1.15em;   
+        }
+        #starbucks_body{
+        font-size: 1.15em; 
+        margin-top: 2em;
+        }
+        
+        .listn{
+        font-size: 1.15em;    
+        }
+        
+        #silver_sponsor_title{
+        padding-top: 1.2em;
+        }
+        
+    </style>
+			
+		<script>
+		</script>
+      
+  </head>
+  
+  <body>
+      <div>
+    <h1 class="main main_title">Sponsors</h1>
+    <hr class="main main_divider">
+      </div>
+ 
+      
+      
+      <div class="golden_bod">
+      <h2 class="sponsor_title"> Gold Level Sponsors</h2>
+          
+          
+        <div class="left-side">
+            
+        <img class="img_sizing" src="http://2018.igem.org/wiki/images/2/2d/T--Tacoma_RAINmakers--Nuaire_Logo_.png" alt="Nuaire Logo">
+            
+        <img id="promega_logo" class="img_sizing"
+        src="http://2018.igem.org/wiki/images/3/3d/T--Tacoma_RAINmakers--Promega_Logo_.png" alt="Promega Logo">
+            
+        <img id="select_science" class="img_sizing"
+        src="http://2018.igem.org/wiki/images/b/bb/T--Tacoma_RAINmakers--select_science_logo.png" alt="Select Science Logo">
+        
+        </div>
+          
+            
+        <div class="right-side">
+            <p class="small_body">    
+            Since 1971, NuAire has been committed to bringing you the highest-quality, most dependable laboratory products on the market. We are universally recognized as one of the world's leading providers of reliable equipment for the most demanding environments, including Biosafety Cabinets, CO2 Incubators, Laminar Air Flow Workstations, Ultra Low Temperature Freezers, Centrifuges, Animal Transfer Stations, Pharmacy Compounding Isolators, Polypropylene Fume Hoods, Polypropylene Casework, and a variety of complementary products and systems. You can depend on our products to feature brilliant but practical design, and we pay keen attention to every step of the production process, from fabrication to assembly to thorough testing. As a NuAire customer, you can also rely on us for outstanding value and dependable service - the cornerstones of our reputation as the leading provider of laboratory products internationally.
+            </p>
+            
+            <p class="small_body">
+            With a portfolio of more than 3,000 products covering the fields of genomics, protein analysis and expression, cellular analysis, drug discovery and genetic identity, Promega is a global leader in providing innovative solutions and technical support to life scientists in academic, industrial and government settings. Promega products are used by life scientists who are asking fundamental questions about biological processes as well as by scientists who are applying scientific knowledge to diagnose and treat diseases, discover new therapeutics, and use genetics and DNA testing for human identification. Since its founding in 1978, Promega has consistently integrated the values of corporate responsibility and sustainable business practices into all aspects of our corporate culture and activity. We realize that our success depends upon the connections we forge among our customers, community and employees.
+            </p>
+            
+            <p class="small_body">
+            SelectScience® is a leading, independent online publisher of cutting-edge science technology and research news, rich editorial content and peer-to-peer information. Through impartial product reviews, expert advice, thought-leading webinars, features on hot scientific topics, applications and more, SelectScience® provides scientists across the world with vital information about the best products and techniques to use in their work. Founded in 1998 and working right across the scientific spectrum, the company promotes scientists and their work and is considered one of the world’s most innovative science communications operations.
+            </p>      
+        </div>        
+      </div>
+      
+     <div class="silver_bod">
+      <h2 id= "silver_sponsor_title" class="sponsor_title"> Silver Level Sponsors</h2>
+          
+          
+        <div class="left-side">
+            
+        <img id="starbucks_logo" class="img_sizing" src="http://2018.igem.org/wiki/images/8/86/T--Tacoma_RAINmakers--Starbucks_Logo_.png" alt="Starbucks Logo">
+            
+        <img id="scinote_logo" class="img_sizing"
+        src="http://2018.igem.org/wiki/images/7/7c/T--Tacoma_RAINmakers--Scinote_Logo_.png" alt="Scinote Logo">
+            
+        <img id="snapgene" class="img_sizing"
+        src="http://2018.igem.org/wiki/images/0/0e/T--Tacoma_RAINmakers--Snapgene_Logo_.png" alt="Snapgene Logo">
+        
+        </div>
+          
+            
+        <div class="right-side">
+            <p id="starbucks_body" class="small_body">    
+     With our partners, our coffee and our customers at our core, we live these values:
+ <ul> 
+<li class="listn">     Creating a culture of warmth and belonging, where everyone is welcome.
+     </li>               
+<li class="listn">    Acting with courage, challenging the status quo and finding new ways to grow our company and each other.
+     </li>     
+<li class="listn">      Being present, connecting with transparency, dignity and respect.
+     </li>           
+                
+<li class="listn">      Delivering our very best in all we do, holding ourselves accountable for results.
+     </li>
+ <li class="listn">
+   We are performance driven, through the lens of humanity.       
+</li>         
+</ul>               
+<p>
+            
+            <p id="promega_text" class="small_body">
+            With a portfolio of more than 3,000 products covering the fields of genomics, protein analysis and expression, cellular analysis, drug discovery and genetic identity, Promega is a global leader in providing innovative solutions and technical support to life scientists in academic, industrial and government settings. Promega products are used by life scientists who are asking fundamental questions about biological processes as well as by scientists who are applying scientific knowledge to diagnose and treat diseases, discover new therapeutics, and use genetics and DNA testing for human identification. Since its founding in 1978, Promega has consistently integrated the values of corporate responsibility and sustainable business practices into all aspects of our corporate culture and activity. We realize that our success depends upon the connections we forge among our customers, community and employees.
+            </p>
+            
+            <p id="snapgene_text" class="small_body">
+            SelectScience® is a leading, independent online publisher of cutting-edge science technology and research news, rich editorial content and peer-to-peer information. Through impartial product reviews, expert advice, thought-leading webinars, features on hot scientific topics, applications and more, SelectScience® provides scientists across the world with vital information about the best products and techniques to use in their work. Founded in 1998 and working right across the scientific spectrum, the company promotes scientists and their work and is considered one of the world’s most innovative science communications operations.
+            </p>      
+        </div>        
+      </div>
+    
+  </body>
+  <!-- No clue why I have to enter in Title and Body for the containers to appear. -->
+</html>
