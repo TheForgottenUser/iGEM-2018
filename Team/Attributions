@@ -1,0 +1,96 @@
+{{Tacoma_RAINmakers}}
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://2017.igem.org/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.content.externallinks%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.igem.styles&amp;only=styles&amp;skin=igem&amp;*">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Spinnaker, Helvetica;
+    color: white;
+    font-size: 1em;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("raindrops.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text {
+  text-align: right;
+  font-family: 'Spinnaker';
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: #8CD9D9;
+  font-size: 2em;
+}
+
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <div class="banner-text">
+    <h1 style="color:#8CD9D9">Attributions</h1>
+      <p><b>We Are Grateful For the Following People</b></p>
+  </div>
+</div>
+
+<p>(Thanks to everyone for all their support...)</p>
+    
+<br>
+    
+<p><b>Advisors</b></p>
+
+<p><i>Nguyen, Judy</i>: Wet Lab Manager</p>
+
+<p><i>Grace, Kristine</i>: Outreach &amp; Presentation</p>
+
+<p><i>Studebaker, Brendan</i>: Human Practices &amp; Graphic Design</p>
+
+<p><i>Katti, Keshava</i>: Wet Lab</p>
+
+<p><i>Croston, Kian</i>: Collaborations &amp; Wiki Development</p>
+
+<p><i>Zacarias, Jonathan</i>: Wiki Development</p>
+
+<p><i>Galuszka, Amanda</i>: Outreach &amp; Human Practices</p>
+    
+    <p><hr>(Add more to each individual.)</hr></p><hr></hr>
+
+<p><b>Team Members</b></p>
+
+<p><i>Bortel, Sarah</i>: Wet Lab &amp; Technology</p>
+
+<p><i>Boyce, Kira</i>: Media &amp; Outreach &amp; Human Practices &amp; Interlab</p>
+
+<p><i>Gutierrez, Ian</i>: Wet Lab &amp; Wiki Development</p>
+
+<p><i>Lee, James</i>: Wiki Development &amp; Interlab</p>
+
+<p><i>Martin, Michael</i>: Wet Lab &amp; Interlab</p>
+
+<p><i>Pental, Jaskiran</i>: Wet Lab &amp; Human Practices</p>
+
+<p><i>Ryan, Catherine</i>: Wet Lab</p>
+
+<p><i>Wan, Leon</i>: Wiki Development &amp; Interlab</p>
+
+<p><i>Xu, Heidi</i>: Graphic Design &amp; Wiki Development</p>
+
+<p><i>Yeh, Madelyn</i>: Wet Lab &amp; Technology</p>
+
+    <p><hr>(Again, probably should be more extensive with the descriptions if we're modeling after Heidelberg's page.)</hr></p><hr></hr>
+
+<p><b>Special Thanks?</b></p>
+
+</body>
+</html>
