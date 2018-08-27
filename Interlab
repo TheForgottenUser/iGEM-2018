@@ -1,1 +1,80 @@
+<html>
+    <head>
+        <title>Interlab</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
 
+        </style>
+    </head>
+    <body>
+        <h1>Interlab</h1>
+        <p>
+            We went to University of Washington Tacoma to use the 
+            FilterMax F5 Multi-Mode Microplate Reader. So we would like to say
+            thank you to Dr. Finke for letting us to use his equipment!
+        </p>
+        <br>
+        <br>
+
+
+        <p>
+            The purpose of this year’s interlab protocol was to take the absorbance of the 
+            bacterial stain E. Coli (created by transforming the plasmid) and standardize the 
+            fluorescence rate for future use at iGEM. 
+            Our next week of interlab lab work was split into two days: calibration day and 
+            cell measurement protocol day. The team quickly learned the importance of accurate 
+            pipetting as we had our first experiences with the plate reader.
+        </p>
+
+        <br>
+        <br>
+
+        <p>
+            We followed all the protocols provided by iGem, so click 
+            <a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/http://2018.igem.org/w
+               iki/images/0/09/2018_InterLab_Plate_Reader_Protocol.pdf">
+                here</a>to see the methods and materials we used. </p>
+
+        <br>
+        <br>
+
+        <h2>Results:</h2>
+        <p>
+            After overnight incubation, we put out the samples and counted the one that had less
+            than 300 colonies. After counting the samples, we multiplied with the dilution factor
+            given in interlab to calculate CFU/mL. We had 6 samples each for positive and negative
+            controls, and it was categorized by dilution 3, 4, and 5, and each sample had a different
+            dilution factor according to the protocol. We noticed that there were a samples , so some of
+            the data had to be left blank. CFU stands for colony forming unit, so the number recorded as 
+            CFU/mL shows the number of colonies present for every 1 mL of sample (similar as concept of 
+            molarity). And the concentration of bacteria is directly related to the fluorescence. 
+            If there is more concentration, it will fluorescence more. The measuring of absorbance also 
+            helped us to see the concentration, since high concentration of bacteria will scatter the 
+            light more than the diluted samples, resulting in the high absorbance value.
+
+        </p>
+
+        <br>
+
+
+
+        <div><img src="chart (1).png" width="250" height="250"><p>In this graph,
+                we analyzed the relationship between absorbance and particle count.
+                We found out that high absorbance means more scattering due to the 
+                high concentration of bacteria, and they have linear relationship</p></div>
+
+        <div><img src="chart (2).png" width="250" height="250"><p>This graph compares 
+                absorance and the particle count, and we found that slight change in absorbance 
+                will change the particle count exponentially</p></div>
+        <div><img src="chart (3).png" width="250" height="250"><p>After we analyzed the data
+                of fluorscence during the cailibration process, we found that there is a direct
+                relationship between fluorescein concentration and fluorscence</p></div>
+        <div><img src="chart (4).png" width="250" height="250"><p>On this standard
+                curve, we noticed that there is a minimum amount of fluorescein
+                needed to express fluorescence. The non zero y intercept shows that example.</p></div>
+
+
+                <div>TODO write content</div>
+                </body>
+                </html>
